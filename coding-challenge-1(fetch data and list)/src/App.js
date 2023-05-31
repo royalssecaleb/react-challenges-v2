@@ -63,7 +63,7 @@ const ExpandableListItem = ({ item }) => {
         <div>
           <li>{`Key : ${item.key}`}</li>
           <li>{`Link :  ${item.link || null}`}</li>
-          <li>{item.participants}</li>
+          <li>{item.participants}<s/li>
           <li>{item.price}</li>
           <li>{item.social}</li>
         </div>
