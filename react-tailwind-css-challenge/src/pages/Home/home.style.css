@@ -1,0 +1,73 @@
+.container{
+    @apply w-full mb-10;
+}
+/* style for portfolio section */
+.section_portfolio{
+    @apply mx-20 mt-40 max-[1050px]:m-10;
+}
+/* style for review section */
+.section_review{
+    @apply flex justify-between  items-center mx-20 mt-0;
+}
+
+.review_title{
+    @apply text-3xl font-bold mt-5;
+}
+
+/* style for tab section */
+.section_tab{
+    @apply mx-20 mt-10
+}
+.tab_list {
+    @apply mb-5 flex list-none flex-row flex-wrap border-b-0 pl-0
+}
+.tab_overview{
+    @apply my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-sm font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400
+}
+.tab_room{
+    @apply focus:border-transparent my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-sm font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400
+}
+.tab_amenities{
+    @apply my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-sm font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400
+}
+.tab_policies{
+    @apply my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-sm font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400
+}
+
+
+/* style for room section */
+.section_room{
+    @apply m-20 max-[1050px]:m-10
+}
+
+.room_section_header{
+    @apply text-xl font-bold
+}
+
+.room_cards{
+    @apply grid grid-cols-4 max-[1300px]:grid-cols-2 max-[735px]:grid-cols-1 gap-10 mt-10
+}
+
+/* style for review */
+
+.section_feedback{
+    @apply m-20 
+}
+
+.feedback_section_header{
+    @apply text-xl font-bold
+}
+
+.feedback_section_content{
+    @apply mt-5 grid grid-cols-8 max-[975px]:grid-cols-1  gap-5
+}
+
+.feedback_rate{
+    @apply grid col-span-2 
+}
+.feedback_description{
+    @apply grid col-span-6 
+}
+
+
+

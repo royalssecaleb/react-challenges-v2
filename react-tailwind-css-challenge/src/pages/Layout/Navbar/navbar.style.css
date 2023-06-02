@@ -1,0 +1,19 @@
+.navbar{
+    @apply flex flex-row justify-between items-center border-b border-gray-200 px-20 py-5
+}
+.nav_left{
+    @apply flex flex-row gap-10 items-center justify-between
+}
+.nav_right{
+    @apply flex flex-row justify-between gap-2 max-[910px]:hidden
+}
+.nav_link{
+    @apply  p-5
+}
+.logo{
+    @apply text-3xl font-bold mb-1
+}
+
+
+
+

@@ -1,0 +1,46 @@
+/* styles for button */
+.btn{
+    @apply py-1 px-10 border border-[rgb(26,101,238)] rounded-3xl 
+}
+
+.btn-outline{
+    @apply text-[rgb(26,101,238)]
+}
+
+
+.btn-fill{
+    @apply text-white bg-[rgb(26,101,238)]
+}
+
+
+/* style for review badge */
+
+.badge{
+    @apply bg-[#E6F9CF] rounded-3xl px-4 py-1
+}
+
+/* style for tab */
+
+.tab-content{
+    @apply transition-opacity duration-150 ease-linear data-[te-tab-active]:block;
+}
+
+/* style for room card */
+.card_container{
+   @apply rounded-2xl shadow-lg  bg-white pt-3 px-3 border border-gray-200
+}
+
+.card_container:hover{
+    @apply rounded-2xl shadow-2xl  bg-white p-3 -translate-y-8 duration-700 ease-in-out 
+ }
+
+ /* style for feedback section */
+
+.feedback_container{
+    @apply flex flex-row max-[775px]:flex-col justify-between h-2/3 p-2 
+}
+
+
+.feedback_container_right{
+    @apply flex flex-col justify-between py-5 max-[775px]:flex-row
+}
